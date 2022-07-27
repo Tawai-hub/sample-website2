@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+::selection{
+    color: #000;
+    background: #fff;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.left-side {
+    margin-left: 20px;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    font-weight: 750;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+    font-size: large;
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+}
+
+.nav-links li a:hover{
+    color: #000;
+    background-color: aquamarine;
+}
+
+
+.myBtns {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 0 20px;
+    text-align: center;
+}
+
+.myBtns .subscribe{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.myBtns .email{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.myBtns .subscribe:hover{
+    background-color: beige;
+}
+
+.myBtns .email:hover{
+    background-color: beige;
+}
